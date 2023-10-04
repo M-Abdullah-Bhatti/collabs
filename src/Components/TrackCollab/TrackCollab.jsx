@@ -21,8 +21,8 @@ const TrackCollab = () => {
               <div
                 className={`track-status ${index < 3 ? "active" : "inactive"}`}
               >
-                {/* {index < 3 ? <TiTick /> : ""} */}
-                {index < 3 ? (
+                {index < 3 ? <TiTick /> : ""}
+                {/* {index < 3 ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="12"
@@ -41,7 +41,7 @@ const TrackCollab = () => {
                   </svg>
                 ) : (
                   " "
-                )}
+                )} */}
               </div>
               <p className="track__option">{option}</p>
             </div>
