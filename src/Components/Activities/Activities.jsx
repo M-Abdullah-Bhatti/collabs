@@ -47,14 +47,14 @@ const Activities = () => {
         />
 
         <Draft
-          date="Aug 24, 8.04 PM"
+          date="Aug 25, 3:44 PM"
           draftNumber="1"
-          message=" Kindly listen to this and share your reviews."
+          message="Kindly Listen to this and share your reviews. 👏"
         />
 
         <Collab
-          date="Aug 24, 8.04 PM"
-          message=" Kindly listen to this and share your reviews."
+          date="Aug 28, 12:44 PM"
+          message=" Kindly Listen to this and share your reviews. 👏"
         />
 
         <ActivityStatus
@@ -63,8 +63,8 @@ const Activities = () => {
         />
 
         <Feedback
-          date="Aug 24, 8.04 PM"
-          message=" Kindly listen to this and share your reviews."
+          date="Aug 29, 2:44 PM"
+          message=" Kindly Listen to this and share your reviews. 👏"
         />
       </div>
     </div>

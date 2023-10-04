@@ -22,10 +22,11 @@ const Draft = ({ draftNumber, message, date }) => {
         {/* btns__container */}
         <div className="btns__container">
           <button>
-            Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "}
+            {/* Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "} */}
+            Draft 1, mp3 <img src="./import.png" alt="logo" />{" "}
           </button>
           <button>
-            Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "}
+            Draft 2, mp3 <img src="./import.png" alt="logo" />{" "}
           </button>
         </div>
       </div>

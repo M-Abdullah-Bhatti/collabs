@@ -11,12 +11,12 @@
 
 .draft__container .draft__header {
   width: 100%;
-  padding: 12px 15px;
+  padding: 8px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffcfff;
-  border: 1px solid #f5b1f5;
+  /* border: 1px solid #f5b1f5; */
 }
 
 .draft__container .draft__header .logo {
@@ -37,15 +37,15 @@
 
 .draft__container .draft__header h3 {
   font-family: var(--font-gilroy-bold);
-
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0em;
+  font-weight: 700;
 }
 
 .draft__container .draft__header .date {
   font-family: var(--font-gilroy-light);
-  color: #979494;
+  color: #717171;
   font-size: 12px;
   margin-bottom: 3px;
 
@@ -61,7 +61,9 @@
 
 .draft__container .draft__body .message {
   font-family: var(--font-gilroy-light);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 0.5px;
 }
 
 .draft__container .draft__body hr {
@@ -80,7 +82,7 @@
 
 .draft__container .draft__body .btns__container button {
   font-family: var(--font-gilroy-light);
-  border-radius: 3px;
+  border-radius: 4px;
   width: 10rem;
   display: flex;
   justify-content: space-between;
@@ -90,4 +92,6 @@
   padding: 10px;
   background-color: #ffdca9;
   cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
 }
