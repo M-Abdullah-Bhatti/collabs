@@ -37,7 +37,7 @@
 }
 
 .feedback__container .feedback__header h3 {
-  font-family: var(--font-gilroy-bold);
+  font-family: "gilroy-bold";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0em;
@@ -45,7 +45,7 @@
 }
 
 .feedback__container .feedback__header .date {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   color: #717171;
   font-size: 12px;
   margin-bottom: 3px;
@@ -75,7 +75,7 @@
 }
 
 .feedback__container .feedback__body .overall .overall__para {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   color: #000;
   font-size: 13px;
   /* margin-bottom: 3px; */
@@ -84,7 +84,7 @@
 }
 
 .five__star {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   color: #717171;
   font-size: 14px;
   font-style: normal;
@@ -94,7 +94,7 @@
 }
 
 .feedback__container .feedback__body .message {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   font-size: 16px;
   font-weight: 400;
   word-spacing: 0.5px;
@@ -128,7 +128,7 @@
 
 .feedback__container .feedback__body .ratings__container .rating .rating__para {
   color: #717171;
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   font-size: 12px;
   font-weight: 600;
 }

@@ -14,7 +14,7 @@
 }
 
 .receiver__message__container .message p {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   font-size: 16px;
   text-align: right;
   font-weight: 400;
@@ -24,7 +24,7 @@
 }
 
 .receiver__message__container .date {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   color: #889696;
   font-size: 12px;
   margin-bottom: 3px;

@@ -12,9 +12,8 @@
 }
 
 .track__heading {
-  font-weight: 600;
-  /* font-family: var(--font-gilroy-bold); */
-  font-family: var(--font-gilroy-light);
+  font-weight: 500;
+  font-family: "gilroy-bold";
   font-size: 20px;
   font-style: normal;
   margin-bottom: 18px;
@@ -22,7 +21,7 @@
 
 .track__option {
   font-weight: 400;
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   font-size: 14px;
   margin-left: 8px;
 }

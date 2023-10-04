@@ -1,24 +1,26 @@
 .collab__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 12px;
-    font-family: var(--font-gilroy-extrabold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
 }
 
 .collab__heading {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "gilroy-bold";
 }
 
 .submit__button {
-    background-color: #FFE500;
-    padding: 12px 16px;
-    cursor: pointer;
-    border-radius: 4px;
+  background-color: #ffe500;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: "gilroy-light";
 }
 
 .submit__button h3 {
-    font-size: 16px;
-    font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
 }

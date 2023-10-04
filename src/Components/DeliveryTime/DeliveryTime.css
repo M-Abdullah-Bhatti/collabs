@@ -10,7 +10,7 @@
   font-size: 20px;
   /* font-weight: 600; */
   font-weight: 500;
-  font-family: var(--font-gilroy-bold);
+  font-family: "gilroy-bold";
   margin-bottom: 20px;
   text-align: left;
 
@@ -36,13 +36,14 @@
 
 .time-value {
   font-size: 36px;
-  font-weight: 500;
-  font-family: var(--font-gilroy-bold);
+  font-weight: 600;
+  font-family: "gilroy-light";
 }
 
 .time-label {
   font-size: 14px;
   font-weight: 400;
+  font-family: "gilroy-light";
   margin-top: 6px;
   color: #717171;
 }

@@ -13,14 +13,14 @@
 }
 
 .activity__status__container .title p {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   font-size: 14px;
   font-weight: 400;
   color: #000;
 }
 
 .activity__status__container .date {
-  font-family: var(--font-gilroy-light);
+  font-family: "gilroy-light";
   color: #717171;
   font-size: 12px;
   font-weight: 400;

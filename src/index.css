@@ -1,30 +1,35 @@
-:root {
-  --font-gilroy-extrabold: "gilroy-extrabold", sans-serif;
-  --font-gilroy-light: "gilroy-light", sans-serif;
-  --font-gilroy-bold: "gilroy-bold", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 @font-face {
-  font-family: var(--font-gilroy-extrabold);
+  /* font-family: var(--font-gilroy-extrabold); */
+  font-family: "gilroy-extrabold";
+
   src: local("gilroy-extrabold"),
     url(./fonts/Gilroy-ExtraBold.otf) format("opentype");
 }
 
 @font-face {
-  font-family: var(--font-gilroy-light);
+  /* font-family: "gilroy-light"; */
+  font-family: "gilroy-light";
   /* font-weight: 900; */
   src: local("gilroy-light"), url(./fonts/Gilroy-Light.otf) format("opentype");
 }
 
 @font-face {
-  font-family: var(--font-gilroy-bold);
+  /* font-family: "gilroy-bold"; */
+  font-family: "gilroy-bold";
   /* font-weight: 900; */
   src: local("gilroy-bold"),
     url(./fonts/FontsFree-Net-Gilroy-Bold.ttf) format("truetype");
+}
+
+/* :root {
+  --font-gilroy-extrabold: "gilroy-extrabold", sans-serif;
+  --font-gilroy-light: "gilroy-light", sans-serif;
+  "gilroy-bold": "gilroy-bold", sans-serif;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "gilroy-bold"; */
 }
