@@ -12,14 +12,15 @@ const Details = () => {
   };
 
   return <div className="details-section">
-  <h2 className="details-heading">
-    Details
+  <div className="details__header">
+    <h2 className="details-heading">
+      Details
+    </h2>
     <p className="toggle-button" onClick={toggleDetails}>
       {showDetails ? 'Hide' : 'Show'}
       {showDetails ? <IoIosArrowUp /> : <IoIosArrowDown />}
     </p>
-
-  </h2>
+  </div>
 
   {showDetails && (
     <>
