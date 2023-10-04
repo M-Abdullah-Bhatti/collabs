@@ -1,5 +1,5 @@
 import "./Feedback.css";
-import { RxDownload } from "react-icons/rx";
+// import { RxDownload } from "react-icons/rx";
 
 const Feedback = ({ message, date }) => {
   return (
