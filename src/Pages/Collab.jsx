@@ -3,6 +3,7 @@ import CollabHeader from "../Components/CollabHeader/CollabHeader";
 import Details from "../Components/Details/Details";
 import Support from "../Components/Support/Support";
 import TrackCollab from "../Components/TrackCollab/TrackCollab";
+import DeliveryTime from "../Components/DeliveryTime/DeliveryTime";
 import "./Collab.css";
 
 const Collab = () => {
@@ -21,6 +22,7 @@ const Collab = () => {
         {/* Right Container */}
 
         <div className="right__main">
+          <DeliveryTime />
           <TrackCollab />
           <Support />
         </div>
