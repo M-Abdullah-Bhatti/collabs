@@ -11,7 +11,7 @@ const Details = () => {
     setShowDetails(!showDetails);
   };
 
-  return <div className="details-section">
+  return <div className={`details-section ${showDetails ? 'gap' : 'nogap'}`}>
   <div className="details__header">
     <h2 className="details-heading">
       Details

@@ -18,7 +18,7 @@ const Support = () => {
         <div className="support__row">
           <div>
             <h3 className="support__label">Extend Delivery Date</h3>
-            <p className="support__value">Got any problem with collab?</p>
+            <p className="support__value">Need more time to complete work?</p>
           </div>
           <IoIosArrowForward color="#717171" />
         </div>
@@ -26,7 +26,7 @@ const Support = () => {
         <div className="support__row">
           <div>
             <h3 className="support__label">FAQs</h3>
-            <p className="support__value">Got any problem with collab?</p>
+            <p className="support__value">Need some answers?</p>
           </div>
           <IoIosArrowForward color="#717171" />
         </div>
