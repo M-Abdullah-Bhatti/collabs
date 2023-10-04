@@ -1,4 +1,4 @@
-.draft__container {
+.collab__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,25 +9,25 @@
   margin-bottom: 1.3rem;
 }
 
-.draft__container .draft__header {
+.collab__container .collab__header {
   width: 100%;
   padding: 12px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffcfff;
-  border: 1px solid #f5b1f5;
+  background-color: #d5eb77;
+  border: 1px solid #d5f05c;
 }
 
-.draft__container .draft__header .logo {
+.collab__container .collab__header .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }
 
-.draft__container .draft__header .logo div {
-  background-color: #ff66ff;
+.collab__container .collab__header .logo div {
+  background-color: #95b21a;
   width: 31px;
   height: 31px;
   border-radius: 50%;
@@ -35,50 +35,46 @@
   place-items: center;
 }
 
-.draft__container .draft__header h3 {
+.collab__container .collab__header h3 {
   font-family: var(--font-gilroy-bold);
-
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0em;
 }
 
-.draft__container .draft__header .date {
+.collab__container .collab__header .date {
   font-family: var(--font-gilroy-light);
   color: #979494;
   font-size: 12px;
   margin-bottom: 3px;
-
-  font-weight: 400;
-  letter-spacing: 0em;
 }
 
-.draft__container .draft__body {
+.collab__container .collab__body {
   width: 100%;
   padding: 15px 15px;
   border: 1px solid #d4d4d4;
 }
 
-.draft__container .draft__body .message {
+.collab__container .collab__body .message {
   font-family: var(--font-gilroy-light);
   font-size: 15px;
 }
 
-.draft__container .draft__body hr {
+.collab__container .collab__body hr {
   background-color: #d4d4d4;
   border: 1px solid #d4d4d4;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.draft__container .draft__body .btns__container {
+.collab__container .collab__body .btns__container {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0.6rem;
 }
 
-.draft__container .draft__body .btns__container button {
+.collab__container .collab__body .btns__container button {
   font-family: var(--font-gilroy-light);
   border-radius: 3px;
   width: 10rem;

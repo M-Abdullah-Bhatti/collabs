@@ -1,21 +1,19 @@
-.collab__container {
+.collab__container__main {
   padding: 3rem;
   background-color: #f2f2f2;
   border: 1px solid greenyellow;
   min-height: 100vh;
 }
 
-.collab__main {
+.collab__container__main .collab__main {
   display: flex;
   gap: 2rem;
 }
 
-.collab__main .left__main {
+.collab__container__main .collab__main .left__main {
   flex: 0.7;
-  border: 1px solid rgb(165, 42, 138);
 }
 
-.collab__main .right__main {
+.collab__container__main .collab__main .right__main {
   flex: 0.3;
-  border: 1px solid rgb(0, 255, 34);
 }

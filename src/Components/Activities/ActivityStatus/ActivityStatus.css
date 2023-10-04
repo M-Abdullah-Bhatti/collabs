@@ -1,14 +1,24 @@
 .activity__status__container {
   width: fit-content;
-  border: 1px solid pink;
+  margin: 2rem auto 1rem auto;
+  text-align: center;
 }
 
 .activity__status__container .title {
-  background-color: yellow;
-  padding: 4px 8px;
+  background: #ffe500;
+  border: 2px solid #d1be15;
+  border-radius: 3px;
+  margin-bottom: 3px;
+  padding: 5px 10px;
+}
+
+.activity__status__container .title p {
+  font-family: var(--font-gilroy-light);
+  font-size: 15px;
 }
 
 .activity__status__container .date {
-  color: #b8b8b8;
-  font-size: 14px;
+  font-family: var(--font-gilroy-light);
+  color: #979494;
+  font-size: 12px;
 }

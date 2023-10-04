@@ -7,14 +7,14 @@ import "./Collab.css";
 
 const Collab = () => {
   return (
-    <div className="collab__container">
+    <div className="collab__container__main">
       <CollabHeader />
 
       <div className="collab__main">
         {/* Left Container */}
 
         <div className="left__main">
-          {/* <Details /> */}
+          <Details />
           <Activities />
         </div>
 
