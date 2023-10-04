@@ -6,7 +6,7 @@ const DeliveryTime = () => {
   const days = 5;
   const hours = 22;
   const minutes = 18;
-  const seconds = 0;
+  const seconds = '00';
 
   return <div className="delivery-time-section">
   <h2 className="delivery-time-heading">Delivery Time</h2>

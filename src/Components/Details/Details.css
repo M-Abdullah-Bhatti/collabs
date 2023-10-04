@@ -1,9 +1,16 @@
 .details-section {
-  padding: 24px;
   font-family: var(--font-gilroy-extrabold);
   background-color: #fff;
   border-radius: 6px;
   margin-bottom: 40px;
+}
+
+.gap {
+  padding: 24px;
+}
+
+.nogap {
+  padding: 10px 24px;
 }
 
 .activity-details {
