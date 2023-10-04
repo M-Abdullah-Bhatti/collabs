@@ -1,5 +1,5 @@
 import "./Collab.css";
-import { RxDownload } from "react-icons/rx";
+// import { RxDownload } from "react-icons/rx";
 
 const Collab = ({ message, date }) => {
   return (
