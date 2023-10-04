@@ -1,0 +1,45 @@
+.delivery-time-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    font-family: var(--font-gilroy-extrabold);
+  }
+  
+.delivery-time-heading {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-gilroy-bold);
+    margin-bottom: 20px;
+    text-align: left;
+}
+  
+.delivery-time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.helper {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 6px;
+}
+  
+.time-segment {
+    display: flex;
+    flex-direction: column;
+}
+  
+.time-value {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--font-gilroy-bold);
+}
+  
+.time-label {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #717171;
+}
+  
