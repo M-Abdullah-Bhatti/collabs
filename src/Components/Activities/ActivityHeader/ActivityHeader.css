@@ -1,0 +1,13 @@
+.activity__header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid yellow;
+}
+
+.activity__header__container .right__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

@@ -13,14 +13,14 @@ const Collab = () => {
       <div className="collab__main">
         {/* Left Container */}
 
-        <div className="left__container">
-          <Details />
+        <div className="left__main">
+          {/* <Details /> */}
           <Activities />
         </div>
 
         {/* Right Container */}
 
-        <div className="right__container">
+        <div className="right__main">
           <TrackCollab />
           <Support />
         </div>
