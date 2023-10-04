@@ -1,0 +1,105 @@
+.feedback__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 65%;
+  margin: auto auto auto 0;
+  border-radius: 5px;
+  margin-bottom: 1.3rem;
+}
+
+.feedback__container .feedback__header {
+  width: 100%;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffdca9;
+  border: 1px solid #f5b1f5;
+}
+
+.feedback__container .feedback__header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback__container .feedback__header .logo div {
+  background-color: #ffb242;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.feedback__container .feedback__header h3 {
+  font-family: var(--font-gilroy-bold);
+
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.feedback__container .feedback__header .date {
+  font-family: var(--font-gilroy-light);
+  color: #979494;
+  font-size: 12px;
+  margin-bottom: 3px;
+
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.feedback__container .feedback__body {
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid #d4d4d4;
+}
+
+.feedback__container .feedback__body .overall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.feedback__container .feedback__body .overall div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+
+.feedback__container .feedback__body .message {
+  font-family: var(--font-gilroy-light);
+  font-size: 15px;
+}
+
+.feedback__container .feedback__body hr {
+  background-color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feedback__container .feedback__body .ratings__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feedback__container .feedback__body .ratings__container .rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback__container .feedback__body .ratings__container .rating div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}

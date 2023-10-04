@@ -3,6 +3,7 @@ import ActivityHeader from "./ActivityHeader/ActivityHeader";
 import ActivityStatus from "./ActivityStatus/ActivityStatus";
 import Collab from "./Collab/Collab";
 import Draft from "./Draft/Draft";
+import Feedback from "./Feedback/Feedback";
 import ReceiverMessage from "./ReceiverMessage/ReceiverMessage";
 import SenderMessage from "./SenderMessage/SenderMessage";
 
@@ -56,6 +57,11 @@ const Activities = () => {
         <ActivityStatus
           title="ABC marked colab on complete"
           date="Aug 24, 8.04 PM"
+        />
+
+        <Feedback
+          date="Aug 24, 8.04 PM"
+          message=" Kindly listen to this and share your reviews."
         />
       </div>
     </div>
