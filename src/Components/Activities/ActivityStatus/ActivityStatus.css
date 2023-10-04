@@ -1,0 +1,14 @@
+.activity__status__container {
+  width: fit-content;
+  border: 1px solid pink;
+}
+
+.activity__status__container .title {
+  background-color: yellow;
+  padding: 4px 8px;
+}
+
+.activity__status__container .date {
+  color: #b8b8b8;
+  font-size: 14px;
+}
