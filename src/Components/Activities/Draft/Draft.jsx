@@ -1,5 +1,4 @@
 import "./Draft.css";
-import { RxDownload } from "react-icons/rx";
 
 const Draft = ({ draftNumber, message, date }) => {
   return (

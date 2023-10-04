@@ -22,10 +22,10 @@ const Collab = ({ message, date }) => {
         {/* btns__container */}
         <div className="btns__container">
           <button>
-            Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "}
+            Dholu.mp3 <img src="./import.png" alt="logo" />{" "}
           </button>
           <button>
-            Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "}
+            Bholu.mp3 <img src="./import.png" alt="logo" />{" "}
           </button>
         </div>
       </div>

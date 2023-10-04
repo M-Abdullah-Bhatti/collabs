@@ -11,12 +11,13 @@
 
 .collab__container .collab__header {
   width: 100%;
-  padding: 12px 15px;
+  padding: 8px 15px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #d5eb77;
-  border: 1px solid #d5f05c;
+  /* border: 1px solid #d5f05c; */
 }
 
 .collab__container .collab__header .logo {
@@ -44,9 +45,12 @@
 
 .collab__container .collab__header .date {
   font-family: var(--font-gilroy-light);
-  color: #979494;
+  color: #717171;
   font-size: 12px;
   margin-bottom: 3px;
+
+  font-weight: 400;
+  letter-spacing: 0em;
 }
 
 .collab__container .collab__body {
@@ -57,7 +61,9 @@
 
 .collab__container .collab__body .message {
   font-family: var(--font-gilroy-light);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 0.5px;
 }
 
 .collab__container .collab__body hr {

@@ -58,7 +58,7 @@ const Activities = () => {
         />
 
         <ActivityStatus
-          title="ABC marked colab on complete"
+          title="Sean Kim marked collab as complete"
           date="Aug 24, 8.04 PM"
         />
 
