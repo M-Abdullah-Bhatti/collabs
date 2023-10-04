@@ -10,7 +10,7 @@ const Collab = ({ message, date }) => {
           <div>
             <img src="./handshake__colab.png" alt="logo" />
           </div>
-          <h3>Colab</h3>
+          <h3>Collab</h3>
         </div>
         <p className="date">{date}</p>
       </div>

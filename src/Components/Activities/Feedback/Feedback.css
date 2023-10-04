@@ -11,12 +11,13 @@
 
 .feedback__container .feedback__header {
   width: 100%;
-  padding: 12px 15px;
+  padding: 8px 15px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffdca9;
-  border: 1px solid #f5b1f5;
+  /* border: 1px solid #f5b1f5; */
 }
 
 .feedback__container .feedback__header .logo {
@@ -37,15 +38,15 @@
 
 .feedback__container .feedback__header h3 {
   font-family: var(--font-gilroy-bold);
-
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0em;
+  font-weight: 700;
 }
 
 .feedback__container .feedback__header .date {
   font-family: var(--font-gilroy-light);
-  color: #979494;
+  color: #717171;
   font-size: 12px;
   margin-bottom: 3px;
 
@@ -73,9 +74,30 @@
   gap: 3px;
 }
 
+.feedback__container .feedback__body .overall .overall__para {
+  font-family: var(--font-gilroy-light);
+  color: #000;
+  font-size: 13px;
+  /* margin-bottom: 3px; */
+
+  font-weight: 600;
+}
+
+.five__star {
+  font-family: var(--font-gilroy-light);
+  color: #717171;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* display: none; */
+}
+
 .feedback__container .feedback__body .message {
   font-family: var(--font-gilroy-light);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 0.5px;
 }
 
 .feedback__container .feedback__body hr {
@@ -102,4 +124,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 3px;
+}
+
+.feedback__container .feedback__body .ratings__container .rating .rating__para {
+  color: #717171;
+  font-family: var(--font-gilroy-light);
+  font-size: 12px;
+  font-weight: 600;
 }

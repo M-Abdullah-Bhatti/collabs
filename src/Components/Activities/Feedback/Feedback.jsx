@@ -1,5 +1,4 @@
 import "./Feedback.css";
-// import { RxDownload } from "react-icons/rx";
 
 const Feedback = ({ message, date }) => {
   return (
@@ -19,50 +18,50 @@ const Feedback = ({ message, date }) => {
       <div className="feedback__body">
         <p className="message">{message}</p>
         <div className="overall">
-          <p>Overall</p>
+          <p className="overall__para">Overall</p>
           <div>
             <img src="./star__feedback.png" alt="logo" />
             <img src="./star__feedback.png" alt="logo" />
             <img src="./star__feedback.png" alt="logo" />
             <img src="./star__feedback.png" alt="logo" />
             <img src="./star__feedback.png" alt="logo" />
-            <p>5</p>
+            <p className="five__star">5</p>
           </div>
         </div>
         <hr />
         {/* btns__container */}
         <div className="ratings__container">
           <div className="rating">
-            <p>Communication</p>
+            <p className="rating__para">Communication</p>
             <div>
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
-              <p>5</p>
+              <p className="five__star">5</p>
             </div>
           </div>
           <div className="rating">
-            <p>Service</p>
+            <p className="rating__para">Service</p>
             <div>
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
-              <p>5</p>
+              <p className="five__star">5</p>
             </div>
           </div>
           <div className="rating">
-            <p>Recommend</p>
+            <p className="rating__para">Recommend</p>
             <div>
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
               <img src="./star__feedback.png" alt="logo" />
-              <p>5</p>
+              <p className="five__star">5</p>
             </div>
           </div>
         </div>
