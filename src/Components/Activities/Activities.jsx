@@ -14,7 +14,10 @@ const Activities = () => {
 
       {/* Main Container */}
       <div className="activities__main">
-        <ActivityStatus title="ABC started the collab" date="Aug 24, 8.04 PM" />
+        <ActivityStatus
+          title="Sean Kim started the collab"
+          date="Aug 24, 8.04 PM"
+        />
         <ReceiverMessage
           date="Aug 24, 8.04 PM"
           message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur quasi voluptatem laboriosam maiores ducimus aperiam repudiandae. Magni enim commodi praesentium corrupti harum ullam porro dolore numquam dignissimos nemo? Blanditiis?"

@@ -5,8 +5,8 @@
 }
 
 .activity__status__container .title {
-  background: #ffe500;
-  border: 2px solid #d1be15;
+  background: #ffe445;
+  /* border: 2px solid #d1be15; */
   border-radius: 3px;
   margin-bottom: 3px;
   padding: 5px 10px;
@@ -14,11 +14,14 @@
 
 .activity__status__container .title p {
   font-family: var(--font-gilroy-light);
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
 }
 
 .activity__status__container .date {
   font-family: var(--font-gilroy-light);
-  color: #979494;
+  color: #717171;
   font-size: 12px;
+  font-weight: 400;
 }
