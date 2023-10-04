@@ -7,24 +7,28 @@
 
 .receiver__message__container .message {
   background: #ffe500;
-  border: 2px solid #d1be15;
-  border-radius: 3px;
-  max-width: 60%;
+  border-radius: 4px 0px 4px 4px;
+  max-width: 46%;
   word-break: break-word;
   padding: 10px;
 }
 
 .receiver__message__container .message p {
   font-family: var(--font-gilroy-light);
-  font-size: 15px;
+  font-size: 16px;
   text-align: right;
+  font-weight: 400;
+  color: #000;
+  line-height: normal;
+  word-spacing: 0.5px;
 }
 
 .receiver__message__container .date {
   font-family: var(--font-gilroy-light);
-  color: #979494;
+  color: #889696;
   font-size: 12px;
   margin-bottom: 3px;
+  font-weight: 400;
 }
 
 .receiver__message__container .heart {
