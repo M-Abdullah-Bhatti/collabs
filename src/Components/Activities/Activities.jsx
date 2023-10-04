@@ -19,29 +19,29 @@ const Activities = () => {
           date="Aug 24, 8.04 PM"
         />
         <ReceiverMessage
-          date="Aug 24, 8.04 PM"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur quasi voluptatem laboriosam maiores ducimus aperiam repudiandae. Magni enim commodi praesentium corrupti harum ullam porro dolore numquam dignissimos nemo? Blanditiis?"
+          date="9:07 PM Read"
+          message="Hi there! I heard you're looking for a musician. I'd love to collaborate with you! What kind of project are you working on?"
           isLove={true}
         />
         <SenderMessage
-          date="Aug 24, 8.04 PM"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur quasi voluptatem laboriosam maiores ducimus aperiam repudiandae. Magni enim commodi praesentium corrupti harum ullam porro dolore numquam dignissimos nemo? Blanditiis?"
+          date="9:10 PM"
+          message=" Hey Sean Kim! Glad you reached out. I'm working on a short film and need an original soundtrack. Are you experienced in composing for films?"
           isLove={false}
         />
         <ReceiverMessage
-          date="Aug 24, 8.04 PM"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur quasi voluptatem laboriosam maiores ducimus aperiam repudiandae. Magni enim commodi praesentium corrupti harum ullam porro dolore numquam dignissimos nemo? Blanditiis?"
+          date="9:15 PM React"
+          message="Absolutely, Bob! I've composed for various short films and commercials. I'd be happy to create a unique soundtrack tailored to your film's mood and theme."
           isLove={false}
         />
         <SenderMessage
-          date="Aug 24, 8.04 PM"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et consectetur quasi voluptatem laboriosam maiores ducimus aperiam repudiandae. Magni enim commodi praesentium corrupti harum ullam porro dolore numquam dignissimos nemo? Blanditiis?"
+          date="9:22 PM"
+          message="That's great to hear! I want the soundtrack to be emotional and uplifting. Can you share some of your previous work or demos?"
           isLove={false}
         />
 
         <ReceiverMessage
-          date="Aug 24, 8.04 PM"
-          message="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+          date="9:15 PM Sent"
+          message="Of course! I'll send you a link to my portfolio"
           moreMessages={["Sending Now..."]}
           isLove={false}
         />
