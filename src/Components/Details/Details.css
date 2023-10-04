@@ -25,7 +25,9 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  margin: 12px 0;
+  /* margin: 12px 0; */
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .details-heading {
@@ -63,6 +65,7 @@
   padding: 3px 6px;
   border-radius: 12px;
   background-color: blue;
+  font-size: 14px;
 }
 
 .underline {

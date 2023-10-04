@@ -1,31 +1,32 @@
 .support__container {
-    padding: 24px;
-    background-color: #fff;
-    border-radius: 6px;
-    font-family: var(--font-gilroy-extrabold);
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-family: var(--font-gilroy-extrabold);
 }
 
 .support__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
 }
 
 .support__heading {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .support__label {
-    font-size: 16px;
-    font-weight: 500;
-    font-family: var(--font-gilroy-bold);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-gilroy-bold);
+  margin-bottom: 5px;
 }
 
 .support__value {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: var(--font-gilroy-light);
-    color: #717171;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-gilroy-light);
+  color: #717171;
 }
