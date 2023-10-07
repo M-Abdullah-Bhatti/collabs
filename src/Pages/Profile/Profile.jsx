@@ -8,13 +8,14 @@ const Profile = () => {
       {/* Profile Main */}
       <div className="profile__main">
         {/* Cover Photo Container */}
-        <div className="cover__photo"></div>
-        <div className="profile__main__container">
-          <div className="profile__main__left">
-            <ProfileDetails />
-          </div>
-          <div className="profile__main__right">
-            <ProfileTabs />
+        <div className="cover__photo">
+          <div className="profile__main__container">
+            <div className="profile__main__left">
+              <ProfileDetails />
+            </div>
+            <div className="profile__main__right">
+              <ProfileTabs />
+            </div>
           </div>
         </div>
       </div>
