@@ -7,6 +7,7 @@ import Draft from "./Draft/Draft";
 import Feedback from "./Feedback/Feedback";
 import ReceiverMessage from "./ReceiverMessage/ReceiverMessage";
 import SenderMessage from "./SenderMessage/SenderMessage";
+import TypeMessage from "./TypeMessage/TypeMessage";
 
 const Activities = () => {
   const [showActivity, setShowActivity] = useState(true);
@@ -73,6 +74,9 @@ const Activities = () => {
             date="Aug 29, 2:44 PM"
             message=" Kindly Listen to this and share your reviews. 👏"
           />
+
+          {/* Type Message  */}
+          <TypeMessage />
         </div>
       )}
     </div>

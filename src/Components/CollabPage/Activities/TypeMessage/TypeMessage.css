@@ -1,0 +1,45 @@
+.type__message__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #d2d4c8;
+  height: 56px;
+  padding: 0 1rem;
+}
+
+.type__message__container .left__container {
+  width: 100%;
+  height: 100%;
+}
+
+.type__message__container .left__container input {
+  font-family: "gilroy-light";
+  color: #889696;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.type__message__container .right__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.type__message__container .right__container div {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ffe500;
+  display: grid;
+  place-content: center;
+}
+
+.type__message__container .right__container img,
+.type__message__container .right__container div {
+  cursor: pointer;
+}
