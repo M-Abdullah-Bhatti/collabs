@@ -14,16 +14,16 @@ const MyCollabHeader = () => {
   return <div className="mycollab__header__container">
   <div className="mycollab__header__left">
     {images.slice(0, 4).map((image, index) => (
-      <img key={index} src={image} alt="User Profile" className="header-image" />
+      <img key={index} src={image} alt="User Profile" className="mycollab__header__image" />
     ))}
     {images.length > 4 && (
-      <span className="image-count">
+      <span className="mycollab__header__image__count">
         +{calculateImagesLeft()}
       </span>
     )}
   </div>
   <div className="mycollab__header__icons">
-    <div className="header-button" style={{backgroundColor: status === 0 ? '#C769FF' : '#64FF98', color: status === 0 ? '#64009F' : '#027A00'}}>{status === 0 ? 'Activate' : 'Complete'}</div>
+    <div className="mycollab__header__button" style={{backgroundColor: status === 0 ? '#C769FF' : '#64FF98', color: status === 0 ? '#64009F' : '#027A00'}}>{status === 0 ? 'Activate' : 'Complete'}</div>
     <img src="./archive-add.svg" alt="Add" />
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
     <path d="M13.68 5C13.68 3.9 12.78 3 11.68 3C10.58 3 9.67999 3.9 9.67999 5C9.67999 6.1 10.58 7 11.68 7C12.78 7 13.68 6.1 13.68 5Z" stroke="#292D32" stroke-width="1.5"/>

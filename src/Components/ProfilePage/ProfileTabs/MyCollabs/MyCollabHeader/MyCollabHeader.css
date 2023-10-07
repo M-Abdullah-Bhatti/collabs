@@ -10,18 +10,18 @@
     align-items: center;
 }
   
-.header-image {
+.mycollab__header__container .mycollab__header__left .mycollab__header__image {
     width: 44px;
     height: 44px;
     margin-left: -20px;
     border: 2px solid var(--BG, #FFF);
 }
 
-.header-image:first-child {
+.mycollab__header__container .mycollab__header__left .mycollab__header__image:first-child {
     margin-left: 0;
 }
   
-.image-count {
+.mycollab__header__container .mycollab__header__left .mycollab__header__image__count {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,16 +35,12 @@
     background-color: #EFEFF0;
 }
   
-.header-button {
+.mycollab__header__button {
     border: none;
     padding: 6px 20px;
     font-size: 16px;
     cursor: pointer;
 }
-  
-  .header-button:hover {
-    background-color: #0056b3;
-  }
 
 .mycollab__header__container .mycollab__header__icons {
     display: flex;
@@ -52,7 +48,7 @@
     gap: 18px;
 }
   
-.icon {
+.mycollab__header__icon {
     font-size: 24px;
     margin-left: 15px;
     cursor: pointer;
