@@ -15,7 +15,7 @@ const ProfileSkills = () => {
       </div>
 
       <div className="skills__buttons__container">
-        <div className="skills__button" style={{ backgroundColor: "#FFE500" }}>
+        <div className="skills__button" style={{ backgroundColor: "#FFE500", border: 'none', flexGrow: 1, textAlign: 'center' }}>
           Let's Collab
         </div>
         <div className="skills__button">
