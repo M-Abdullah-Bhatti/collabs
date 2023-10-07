@@ -1,9 +1,9 @@
-import Activities from "../Components/Activities/Activities";
-import CollabHeader from "../Components/CollabHeader/CollabHeader";
-import Details from "../Components/Details/Details";
-import Support from "../Components/Support/Support";
-import TrackCollab from "../Components/TrackCollab/TrackCollab";
-import DeliveryTime from "../Components/DeliveryTime/DeliveryTime";
+import Activities from "../Components/CollabPage/Activities/Activities";
+import CollabHeader from "../Components/CollabPage/CollabHeader/CollabHeader";
+import Details from "../Components/CollabPage/Details/Details";
+import Support from "../Components/CollabPage/Support/Support";
+import TrackCollab from "../Components/CollabPage/TrackCollab/TrackCollab";
+import DeliveryTime from "../Components/CollabPage/DeliveryTime/DeliveryTime";
 import "./Collab.css";
 
 const Collab = () => {
