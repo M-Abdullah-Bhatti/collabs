@@ -1,0 +1,32 @@
+.collab__stats__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 3px;
+  border-bottom: 1px solid #d2d4c8;
+}
+
+.collab__stat__wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.collab__stat__icon {
+  display: flex;
+  align-items: center;
+  background-color: #ffe500;
+  padding: 12px 18px;
+}
+
+.collab__stat {
+  font-weight: 600;
+  color: #000;
+  font-family: "gilroy-bold";
+}
+
+.collab__stat p:first-child {
+  font-size: 16px;
+}
+
+.collab__stat p:last-child {
+  font-size: 32px;
+}

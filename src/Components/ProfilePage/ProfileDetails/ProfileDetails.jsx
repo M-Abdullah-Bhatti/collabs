@@ -1,8 +1,8 @@
 import React from "react";
-import './ProfileDetails.css'
-import ProfileSocials from "../ProfileSocials/ProfileSocials";
-import ProfileSkills from "../ProfileSkills/ProfileSkills";
-import ProfileOverview from "../ProfileOverview/ProfileOverview";
+import "./ProfileDetails.css";
+import ProfileSocials from "./ProfileSocials/ProfileSocials";
+import ProfileSkills from "./ProfileSkills/ProfileSkills";
+import ProfileOverview from "./ProfileOverview/ProfileOverview";
 
 const ProfileDetails = () => {
   return (
