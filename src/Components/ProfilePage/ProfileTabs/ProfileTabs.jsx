@@ -12,10 +12,10 @@ const ProfileTabs = () => {
 
 
   return (
-    <div className="section-with-options">
-      <div className="options">
+    <div className="section__with__options">
+      <div className="profile__tabs__options">
         <div
-          className={`option ${selectedOption === 1 ? 'selected' : ''}`}
+          className={`profile__tabs__option ${selectedOption === 1 ? 'profile__tabs__selected' : ''}`}
           onClick={() => handleOptionClick(1)}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ const ProfileTabs = () => {
         </div>
         <hr className="vertical__line" />
         <div
-          className={`option ${selectedOption === 2 ? 'selected' : ''}`}
+          className={`profile__tabs__option ${selectedOption === 2 ? 'profile__tabs__selected' : ''}`}
           onClick={() => handleOptionClick(2)}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ const ProfileTabs = () => {
         </div>
         <hr className="vertical__line" />
         <div
-          className={`option ${selectedOption === 3 ? 'selected' : ''}`}
+          className={`profile__tabs__option ${selectedOption === 3 ? 'profile__tabs__selected' : ''}`}
           onClick={() => handleOptionClick(3)}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

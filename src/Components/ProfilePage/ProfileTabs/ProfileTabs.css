@@ -1,4 +1,4 @@
-.section-with-options {
+.section__with__options {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,14 +9,14 @@
     color: #717171;
 }
   
-.options {
+.profile__tabs__options {
     display: flex;
     align-items: center;
     margin-bottom: 12px;
     gap: 12px;
 }
   
-.option {
+.profile__tabs__option {
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -25,7 +25,7 @@
     transition: color 0.2s, background-color 0.2s, border-bottom-color 0.2s;
 }
   
-.option.selected {
+.profile__tabs__option.profile__tabs__selected {
     font-weight: 500;
     color: #000;
     font-family: 'gilroy-bold';
@@ -45,7 +45,7 @@
     transition: background-color 0.2s;
 }
   
-.option-icon {
+.profile__tabs__option_icon {
     width: 24px;
     margin-right: 10px;
 }
