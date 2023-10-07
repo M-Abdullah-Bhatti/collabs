@@ -1,0 +1,14 @@
+.profile__details__container {
+    background-color: #ffffff;
+    z-index: 999;
+    min-height: 100vh;
+    padding: 30px 20px 6px;
+}
+
+.profile__foot {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'gilroy-bold';
+    margin-top: 20px;
+}

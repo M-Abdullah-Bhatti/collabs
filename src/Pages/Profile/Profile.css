@@ -8,6 +8,12 @@
 .profile__container__main .profile__main {
   width: 75%;
   border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__main__container {
+  display: flex;
 }
 
 .profile__container__main .profile__main .cover__photo {
@@ -15,6 +21,16 @@
   height: 35vh;
   background: url("/public/profile/cover__photo.png") no-repeat center
     center/cover;
+}
+
+.profile__main__left {
+  border: 1px solid red;
+  flex: 0.25;
+  z-index: 999;
+}
+
+.profile__main__right {
+  flex: 0.75;
 }
 
 /* ========= */

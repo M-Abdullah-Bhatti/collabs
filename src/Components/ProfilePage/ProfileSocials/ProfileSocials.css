@@ -1,0 +1,46 @@
+.socials__container {
+    text-align: center;
+}
+
+.socials__container h2 {
+    text-align: left;
+    color: var(--Text-Color---1, #717171);
+    font-family: "gilroy-light";
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+  
+.social-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social__icon {
+    width: 24px;
+    height: 24px;
+}
+  
+.social__item {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+  
+.social-item a {
+    text-decoration: none;
+    color: #333;
+}
+  
+.social__item img {
+    width: 24px;
+    height: 24px;
+}
+
+.social__title {
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "gilroy-light";
+}
+  

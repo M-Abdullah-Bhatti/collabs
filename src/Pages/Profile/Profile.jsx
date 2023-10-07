@@ -1,3 +1,5 @@
+import ProfileDetails from "../../Components/ProfilePage/ProfileDetails/ProfileDetails";
+import ProfileTabs from "../../Components/ProfilePage/ProfileTabs/ProfileTabs";
 import "./Profile.css";
 
 const Profile = () => {
@@ -7,6 +9,14 @@ const Profile = () => {
       <div className="profile__main">
         {/* Cover Photo Container */}
         <div className="cover__photo"></div>
+        <div className="profile__main__container">
+          <div className="profile__main__left">
+            <ProfileDetails />
+          </div>
+          <div className="profile__main__right">
+            <ProfileTabs />
+          </div>
+        </div>
       </div>
 
       {/* Something Else */}

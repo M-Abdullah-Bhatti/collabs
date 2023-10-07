@@ -12,3 +12,38 @@ export const activitiesData = [
         'content': '12 Days : 4 Hours'
     },
 ];
+
+export const socialsData = [
+    {
+      name: 'Play On Music Protocol',
+      icon: './music__icon.png',
+      link: 'https://www.facebook.com/',
+      backgroundColor: '', // Specify the background color
+    },
+    {
+      name: 'X',
+      icon: './x__icon.png',
+      link: 'https://twitter.com/',
+      backgroundColor: '#1DA1F2', // Specify the background color
+    },
+    {
+      name: 'Telegram',
+      icon: './telegram__icon.png',
+      link: 'https://www.instagram.com/',
+      backgroundColor: '#0088CC', // Specify the background color
+    },
+    {
+      name: 'Discord',
+      icon: './discord__icon.png',
+      link: 'https://www.linkedin.com/',
+      backgroundColor: '#5865F2', // Specify the background color
+    },
+];
+
+export const skillsData = [
+  'Guitarist',
+  'Music Production',
+  'Luthier',
+  'Improvisation',
+  'Composer'
+];

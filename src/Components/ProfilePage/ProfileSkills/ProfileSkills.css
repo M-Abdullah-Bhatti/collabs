@@ -1,0 +1,41 @@
+.profile__skills__container {
+    margin: 20px 0;
+}
+  
+.profile__skills__container h2 {
+    text-align: left;
+    color: var(--Text-Color---1, #717171);
+    font-family: "gilroy-light";
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+  
+.skill__item {
+    display: inline-block;
+    font-family: "gilroy-light";
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 6px 7px;
+    background: #EFEFF0;
+    margin-right: 5px;
+}
+
+.skills__buttons__container {
+    display: flex;
+    gap: 6px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.skills__button {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background: #D2D4C8;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "gilroy-light";
+}
+  
