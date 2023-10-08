@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./ProfileTabs.css";
 import MyCollabs from "./MyCollabs/MyCollabs";
-import MyCollabMusicPlayer from "./MyCollabs/MyCollabMusicPlayer/MyCollabMusicPlayer";
+import MyPosts from "./MyPosts/MyPosts";
+import MyMusic from "./MyMusic/MyMusic";
 
 const ProfileTabs = () => {
   const [selectedOption, setSelectedOption] = useState(3); // Default to Option 1
@@ -140,8 +141,8 @@ const ProfileTabs = () => {
         }`}
       />
       <div className="content">
-        {selectedOption === 1 && <MyCollabs type="myPost" />}
-        {selectedOption === 2 && <MyCollabMusicPlayer />}
+        {selectedOption === 1 && <MyPosts />}
+        {selectedOption === 2 && <MyMusic />}
         {selectedOption === 3 && <MyCollabs />}
       </div>
     </div>
