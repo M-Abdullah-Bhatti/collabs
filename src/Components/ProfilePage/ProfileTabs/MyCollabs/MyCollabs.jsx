@@ -5,10 +5,10 @@ import MyCollabHeader from "./MyCollabHeader/MyCollabHeader";
 import MyCollabVolume from "./MyCollabVolume/MyCollabVolume";
 import CollabDetails from "../../Shared/CollabDetails/CollabDetails";
 
-const MyCollabs = () => {
+const MyCollabs = ({type}) => {
   return (
     <div className="my__collabs__container">
-      <CollabStats />
+      {type !== "myPost" && <CollabStats />}
       <div className="my__collabs__main">
         <MyCollabHeader />
         <MyCollabVolume />
