@@ -8,25 +8,56 @@ const MyCollabVolume = () => {
   const audioRef = useRef(null);
   const [blob, setBlob] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+
+  const handlePlay = () => setIsPlaying(true);
+  const handlePause = () => setIsPlaying(false);
+
+  const updateTime = () => {
+    if (audioRef.current) {
+      setCurrentTime(audioRef.current.currentTime);
+    }
+  };
 
   useEffect(() => {
-    // Load the audio when the component mounts
-    fetch("/profile/WhatsApp Ptt 2023-08-06 at 5.24.45 PM.ogg")
+    // Fetch the static audio file and set it as a blob
+    fetch("/profile/sample.ogg")
       .then((response) => response.blob())
       .then((audioBlob) => {
         setBlob(audioBlob);
       });
+
+    const audioElem = audioRef.current;
+    if (audioElem) {
+      // Add event listeners for the audio element
+      audioElem.addEventListener("play", handlePlay);
+      audioElem.addEventListener("pause", handlePause);
+      audioElem.addEventListener("timeupdate", updateTime);
+    }
+
+    // Cleanup the event listeners on component unmount
+    return () => {
+      if (audioElem) {
+        audioElem.removeEventListener("play", handlePlay);
+        audioElem.removeEventListener("pause", handlePause);
+        audioElem.removeEventListener("timeupdate", updateTime);
+      }
+    };
   }, []);
 
-  const handleVolumeClick = () => {
-    // if (isPlaying) {
-    //   audioRef.current.pause();
-    // } else {
-    //   audioRef.current.play();
-    // }
+  useEffect(() => {
+    const audioElem = audioRef.current;
+    if (audioElem) {
+      if (isPlaying) {
+        audioElem.play();
+      } else {
+        audioElem.pause();
+      }
+    }
+  }, [isPlaying]);
 
-    audioRef.current.play();
-    setIsPlaying(!isPlaying);
+  const handleVolumeClick = () => {
+    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
 
   return (
@@ -51,24 +82,16 @@ const MyCollabVolume = () => {
             {/* Right Container */}
             <div className="right__container">
               {blob && (
-                <>
-                  <audio ref={audioRef} src={URL.createObjectURL(blob)} />
-                  <AudioVisualizer
-                    ref={visualizerRef}
-                    blob={blob}
-                    width={500}
-                    height={95}
-                    barWidth={2}
-                    gap={2}
-                    barColor="black"
-                    barPlayedColor="yellow"
-                    // barColor={{
-                    //   0: isPlaying ? "yellow" : "black",
-                    //   50: isPlaying ? "yellow" : "black",
-                    //   100: "black",
-                    // }}
-                  />
-                </>
+                <AudioVisualizer
+                  blob={blob}
+                  width={500}
+                  height={95}
+                  barWidth={2}
+                  gap={2}
+                  barColor="black"
+                  barPlayedColor="yellow"
+                  currentTime={currentTime}
+                />
               )}
             </div>
           </div>
@@ -82,17 +105,15 @@ const MyCollabVolume = () => {
             <div className="right__container">
               <img src="/profile/shared__volume-low.png" alt="logo" />
 
-              {/* ============ */}
-              <div class="volume-container">
-                <div class="volume-bar">
-                  <div class="yellow-part">
-                    <div class="bullet"></div>
+              {/* Volume bar */}
+              <div className="volume-container">
+                <div className="volume-bar">
+                  <div className="yellow-part">
+                    <div className="bullet"></div>
                   </div>
-                  <div class="black-part"></div>
+                  <div className="black-part"></div>
                 </div>
               </div>
-
-              {/* ============= */}
             </div>
           </div>
         </div>
@@ -101,10 +122,15 @@ const MyCollabVolume = () => {
       <div className="volume__description">
         <p>
           Description Goes here. This is just a simple description or the
-          caption you put under the post to describe the post. There is not need
-          to read is completely you can stop now.{" "}
+          caption you put under the post to describe the post. There is no need
+          to read it completely; you can stop now.
         </p>
       </div>
+
+      {/* Audio element */}
+      {blob && (
+        <audio ref={audioRef} src={URL.createObjectURL(blob)} preload="auto" />
+      )}
     </>
   );
 };
