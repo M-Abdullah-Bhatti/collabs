@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 import MyMusic from "./MyMusic/MyMusic";
 
 const ProfileTabs = () => {
-  const [selectedOption, setSelectedOption] = useState(3); // Default to Option 1
+  const [selectedOption, setSelectedOption] = useState(1);
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
