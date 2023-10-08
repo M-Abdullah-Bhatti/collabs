@@ -3,7 +3,7 @@ import "./ProfileTabs.css";
 import MyCollabs from "./MyCollabs/MyCollabs";
 
 const ProfileTabs = () => {
-  const [selectedOption, setSelectedOption] = useState(1); // Default to Option 1
+  const [selectedOption, setSelectedOption] = useState(3); // Default to Option 1
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
@@ -13,7 +13,9 @@ const ProfileTabs = () => {
     <div className="section__with__options">
       <div className="profile__tabs__options">
         <div
-          className={`profile__tabs__option ${selectedOption === 1 ? 'profile__tabs__selected' : ''}`}
+          className={`profile__tabs__option ${
+            selectedOption === 1 ? "profile__tabs__selected" : ""
+          }`}
           onClick={() => handleOptionClick(1)}
         >
           <svg
@@ -49,7 +51,9 @@ const ProfileTabs = () => {
         </div>
         <hr className="vertical__line" />
         <div
-          className={`profile__tabs__option ${selectedOption === 2 ? 'profile__tabs__selected' : ''}`}
+          className={`profile__tabs__option ${
+            selectedOption === 2 ? "profile__tabs__selected" : ""
+          }`}
           onClick={() => handleOptionClick(2)}
         >
           <svg
@@ -92,7 +96,9 @@ const ProfileTabs = () => {
         </div>
         <hr className="vertical__line" />
         <div
-          className={`profile__tabs__option ${selectedOption === 3 ? 'profile__tabs__selected' : ''}`}
+          className={`profile__tabs__option ${
+            selectedOption === 3 ? "profile__tabs__selected" : ""
+          }`}
           onClick={() => handleOptionClick(3)}
         >
           <svg

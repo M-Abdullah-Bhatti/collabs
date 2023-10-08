@@ -1,4 +1,130 @@
 .mycollabvolume__container {
   background-color: #efeff0;
   height: 30vh;
+  padding: 1rem;
+}
+
+.mycollabvolume__container .content h1 {
+  font-size: 18px;
+  color: #000;
+  font-family: "gilroy-bold";
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.mycollabvolume__container .content p {
+  font-size: 14px;
+  color: #717171;
+  font-family: "gilroy-light";
+  font-weight: 600;
+}
+
+.mycollabvolume__container .volume__container {
+  /* margin-top: 1rem; */
+}
+
+.mycollabvolume__container .volume__container .top__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mycollabvolume__container .volume__container .top__container .left__container {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #000;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+
+.mycollabvolume__container
+  .volume__container
+  .top__container
+  .left__container
+  svg {
+  font-size: 25px;
+  color: yellow !important;
+  font-weight: bold;
+}
+
+.mycollabvolume__container
+  .volume__container
+  .top__container
+  .right__container {
+  /* border: 2px solid black; */
+  /* flex: 1; */
+  width: 100%;
+}
+
+.mycollabvolume__container
+  .volume__container
+  .top__container
+  .right__container
+  canvas {
+  width: 100%;
+}
+
+.mycollabvolume__container .volume__container .bottom__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mycollabvolume__container
+  .volume__container
+  .bottom__container
+  .left__container {
+  font-family: "gilroy-light";
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.mycollabvolume__container
+  .volume__container
+  .bottom__container
+  .right__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.volume-container {
+  width: 90px;
+}
+
+.volume-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 15px;
+  background-color: black;
+  position: relative;
+}
+
+.yellow-part {
+  width: 70%;
+  height: 100%;
+  background-color: #ffe500;
+  position: relative;
+}
+
+.bullet {
+  width: 13px;
+  height: 13px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 2px solid #ffe500;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.black-part {
+  background-color: black;
 }
