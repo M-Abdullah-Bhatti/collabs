@@ -26,6 +26,10 @@
   transition: color 0.2s, background-color 0.2s, border-bottom-color 0.2s;
 }
 
+.profile__tabs__selected {
+  border-bottom: 1px solid #000;
+}
+
 .profile__tabs__option.profile__tabs__selected {
   font-weight: 500;
   color: #000;

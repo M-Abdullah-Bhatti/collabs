@@ -3,7 +3,7 @@
     background-color: #fff;
     border-radius: 6px;
     margin-bottom: 18px;
-    padding: 16px 16px 0;
+    padding: 16px;
 }
 
 .collab__details__section .collab__details__header {
@@ -43,8 +43,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
-  
-  
+
 .collab__details__section .collab__activity__details .collab__details__item {
     display: flex;
     width: 100%;
