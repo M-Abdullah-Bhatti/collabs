@@ -135,11 +135,11 @@ const ProfileTabs = () => {
           <p>My Collabs</p>
         </div>
       </div>
-      <hr
+      {/* <hr
         className={`horizontal__line ${
           selectedOption === 1 ? "selected-line" : ""
         }`}
-      />
+      /> */}
       <div className="content">
         {selectedOption === 1 && <MyPosts />}
         {selectedOption === 2 && <MyMusic />}
