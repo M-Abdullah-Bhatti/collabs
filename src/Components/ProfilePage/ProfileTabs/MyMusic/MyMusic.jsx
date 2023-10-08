@@ -3,8 +3,9 @@ import MyCollabMusicPlayer from '../MyCollabs/MyCollabMusicPlayer/MyCollabMusicP
 
 const MyMusic = () => {
   return (
-    <div style={{marginTop: '12px'}}>
-        <MyCollabMusicPlayer />
+    <div style={{marginTop: '30px'}}>
+        <MyCollabMusicPlayer status={0} />
+        <div style={{ backgroundColor: '#fff', padding: '20px'}}></div>
     </div>
   )
 }
