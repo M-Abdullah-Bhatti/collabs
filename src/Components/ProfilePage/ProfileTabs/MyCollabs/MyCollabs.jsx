@@ -3,7 +3,7 @@ import "./MyCollabs.css";
 import CollabStats from "./CollabStats/CollabStats";
 import MyCollabHeader from "./MyCollabHeader/MyCollabHeader";
 import MyCollabVolume from "./MyCollabVolume/MyCollabVolume";
-import Details from '../../../CollabPage/Details/Details'
+import CollabDetails from "../../Shared/CollabDetails/CollabDetails";
 
 const MyCollabs = () => {
   return (
@@ -12,7 +12,7 @@ const MyCollabs = () => {
       <div className="my__collabs__main">
         <MyCollabHeader />
         <MyCollabVolume />
-        <Details />
+        <CollabDetails />
       </div>
     </div>
   );

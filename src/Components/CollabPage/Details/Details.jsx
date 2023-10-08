@@ -11,7 +11,7 @@ const Details = () => {
   };
 
   return (
-    <div className={`details-section ${showDetails ? "gap" : "nogap"}`}>
+    <div className="details-section gap" style={{paddingBottom: !showDetails && 0}}>
       <div className="details__header">
         <h2 className="details-heading">Details</h2>
         <p className="toggle-button" onClick={toggleDetails}>

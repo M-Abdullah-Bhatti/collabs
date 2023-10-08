@@ -47,3 +47,26 @@ export const skillsData = [
   'Improvisation',
   'Composer'
 ];
+
+export const collabData = [
+  {
+    'title': 'Title',
+    'content': 'You Are My Everything'
+  },
+  {
+    'title': 'Artists',
+    'content': ['Sean Kim', 'Asad Ali', 'Mahnoor Ali']
+  },
+  {
+    'title': 'Rating',
+    'content': 5
+  },
+  {
+    'title': 'Revenue Distribution',
+    'content': [{'Artist': 'Sean Kim', 'Percentage': '60'}, {'Artist': 'Asad Ali', 'Percentage': '20'}, {'Artist': 'Mahnoor Ali', 'Percentage': '20'}]
+  },
+  {
+    'title': 'Completion Time',
+    'content': '12 Days: 4 Hours'
+  }
+];

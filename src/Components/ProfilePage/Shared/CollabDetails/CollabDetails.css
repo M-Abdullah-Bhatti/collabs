@@ -1,0 +1,101 @@
+.collab__details__section {
+    font-family: 'gilroy-light';
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 16px 16px 0;
+}
+
+.collab__details__section .collab__details__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.collab__details__artists__name {
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 2px;
+}
+
+.collab__details__section .collab__details__header .collab__details__heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'gilroy-bold';
+    text-transform: capitalize;
+}
+  
+.collab__details__section .collab__details__header .collab__details__toggle__button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #717171;
+    font-family: "gilroy-light";
+}
+
+.collab__details__section .collab__activity__details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+  
+.collab__details__section .collab__activity__details .collab__details__item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.collab__details__item:last-child {
+    margin-bottom: 0;
+}
+  
+.collab__details__item .collab__details__label {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "gilroy-bold";
+    color: #000;
+}
+
+.collab__details__artists__container {
+    width: 100%;
+    flex: 1;
+    padding-top: 8px;
+    justify-content: "space-between";
+}
+  
+.collab__details__item .collab__details__value {
+    font-size: 14px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "gilroy-light";
+}
+  
+.details__percent {
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 12px;
+    background-color: #1127E3;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "gilroy-light";
+}
+  
+.collab__details__underline {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.collab__details__underline:last-child {
+    display: none;
+}
+  
