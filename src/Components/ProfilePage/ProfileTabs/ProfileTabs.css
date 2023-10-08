@@ -1,52 +1,51 @@
 .section__with__options {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px 20px 0;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'gilroy-light';
-    color: #717171;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0 20px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "gilroy-light";
+  color: #717171;
 }
-  
+
 .profile__tabs__options {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2px;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  gap: 12px;
 }
-  
+
 .profile__tabs__option {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    padding: 10px 0;
-    gap: 6px;
-    transition: color 0.2s, background-color 0.2s, border-bottom-color 0.2s;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px 0;
+  gap: 6px;
+  transition: color 0.2s, background-color 0.2s, border-bottom-color 0.2s;
 }
-  
+
 .profile__tabs__option.profile__tabs__selected {
-    font-weight: 500;
-    color: #000;
-    font-family: 'gilroy-bold';
+  font-weight: 500;
+  color: #000;
+  font-family: "gilroy-bold";
 }
 
 .vertical__line {
-    height: 20px;
-    width: 2px;
-    color: pink;
-    margin: 0 12px;
+  height: 20px;
+  width: 2px;
+  color: pink;
+  margin: 0 12px;
 }
 
 .horizontal__line {
-    width: 100%;
-    height: 2px;
-    background-color: #ccc;
-    transition: background-color 0.2s;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  transition: background-color 0.2s;
 }
-  
+
 .profile__tabs__option_icon {
-    width: 24px;
-    margin-right: 10px;
+  width: 24px;
+  margin-right: 10px;
 }
-  
