@@ -11,7 +11,7 @@ const CollabDetails = () => {
   };
 
   return (
-    <div className="collab__details__section" style={{paddingBottom: !showDetails && 0}}>
+    <div className="collab__details__section">
       <div className="collab__details__header">
         <h2 className="collab__details__heading">Collab Details</h2>
         <p className="collab__details__toggle__button" onClick={toggleDetails}>
