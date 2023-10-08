@@ -12,7 +12,7 @@
 .profile__tabs__options {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 2px;
     gap: 12px;
 }
   
