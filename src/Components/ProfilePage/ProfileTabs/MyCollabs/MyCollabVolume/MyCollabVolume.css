@@ -2,6 +2,7 @@
   background-color: #efeff0;
   /* height: 30vh; */
   padding: 1rem;
+  margin-top: 16px;
 }
 
 .mycollabvolume__container .content h1 {
@@ -132,7 +133,7 @@
 .volume__description {
   background-color: #fff;
 
-  border-bottom: 1px solid #d2d4c8;
+  /* border-bottom: 1px solid #d2d4c8; */
 }
 
 .volume__description p {

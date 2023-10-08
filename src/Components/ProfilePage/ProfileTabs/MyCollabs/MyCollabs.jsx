@@ -1,17 +1,15 @@
 import React from "react";
 import "./MyCollabs.css";
 import CollabStats from "./CollabStats/CollabStats";
-import MyCollabHeader from "./MyCollabHeader/MyCollabHeader";
-import MyCollabVolume from "./MyCollabVolume/MyCollabVolume";
 import CollabDetails from "../../Shared/CollabDetails/CollabDetails";
+import MyCollabMusicPlayer from "./MyCollabMusicPlayer/MyCollabMusicPlayer";
 
-const MyCollabs = ({type}) => {
+const MyCollabs = () => {
   return (
     <div className="my__collabs__container">
-      {type !== "myPost" && <CollabStats />}
+      <CollabStats />
       <div className="my__collabs__main">
-        <MyCollabHeader />
-        <MyCollabVolume />
+        <MyCollabMusicPlayer />
         <CollabDetails />
       </div>
     </div>
