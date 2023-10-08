@@ -33,15 +33,14 @@
 
 .vertical__line {
   height: 20px;
-  width: 2px;
-  color: pink;
+  width: 1px;
   margin: 0 12px;
 }
 
 .horizontal__line {
   width: 100%;
-  height: 2px;
-  background-color: #ccc;
+  height: 1px;
+  background-color: #D2D4C8;
   transition: background-color 0.2s;
 }
 
