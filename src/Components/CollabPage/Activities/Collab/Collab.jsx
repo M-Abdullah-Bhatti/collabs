@@ -8,7 +8,7 @@ const Collab = ({ message, date }) => {
       <div className="collab__header">
         <div className="logo">
           <div>
-            <img src="./handshake__colab.png" alt="logo" />
+            <img src="/collab/handshake__colab.png" alt="logo" />
           </div>
           <h3>Collab</h3>
         </div>
@@ -22,10 +22,10 @@ const Collab = ({ message, date }) => {
         {/* btns__container */}
         <div className="btns__container">
           <button>
-            Dholu.mp3 <img src="./import.png" alt="logo" />{" "}
+            Dholu.mp3 <img src="/collab/import.png" alt="logo" />{" "}
           </button>
           <button>
-            Bholu.mp3 <img src="./import.png" alt="logo" />{" "}
+            Bholu.mp3 <img src="/collab/import.png" alt="logo" />{" "}
           </button>
         </div>
       </div>

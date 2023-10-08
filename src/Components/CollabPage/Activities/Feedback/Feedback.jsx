@@ -7,7 +7,7 @@ const Feedback = ({ message, date }) => {
       <div className="feedback__header">
         <div className="logo">
           <div>
-            <img src="./feedback__star.png" alt="logo" />
+            <img src="/collab/feedback__star.png" alt="logo" />
           </div>
           <h3>Feedback </h3>
         </div>
@@ -20,11 +20,11 @@ const Feedback = ({ message, date }) => {
         <div className="overall">
           <p className="overall__para">Overall</p>
           <div>
-            <img src="./star__feedback.png" alt="logo" />
-            <img src="./star__feedback.png" alt="logo" />
-            <img src="./star__feedback.png" alt="logo" />
-            <img src="./star__feedback.png" alt="logo" />
-            <img src="./star__feedback.png" alt="logo" />
+            <img src="/collab/star__feedback.png" alt="logo" />
+            <img src="/collab/star__feedback.png" alt="logo" />
+            <img src="/collab/star__feedback.png" alt="logo" />
+            <img src="/collab/star__feedback.png" alt="logo" />
+            <img src="/collab/star__feedback.png" alt="logo" />
             <p className="five__star">5</p>
           </div>
         </div>
@@ -34,33 +34,33 @@ const Feedback = ({ message, date }) => {
           <div className="rating">
             <p className="rating__para">Communication</p>
             <div>
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
               <p className="five__star">5</p>
             </div>
           </div>
           <div className="rating">
             <p className="rating__para">Service</p>
             <div>
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
               <p className="five__star">5</p>
             </div>
           </div>
           <div className="rating">
             <p className="rating__para">Recommend</p>
             <div>
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
-              <img src="./star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
+              <img src="/collab/star__feedback.png" alt="logo" />
               <p className="five__star">5</p>
             </div>
           </div>

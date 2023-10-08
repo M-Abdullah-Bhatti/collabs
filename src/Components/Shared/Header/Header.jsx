@@ -33,7 +33,7 @@ const Header = () => {
     <div className="header__container">
       {/* Left */}
       <div className="left__container">
-        <img src="./shared/header__logo.png" alt="logo" />
+        <img src="/shared/header__logo.png" alt="logo" />
       </div>
       {/* Middle */}
       <div className="middle__container">
@@ -45,9 +45,9 @@ const Header = () => {
       </div>
       {/* Right */}
       <div className="right__container">
-        <img src="./shared/header__sms.png" alt="logo" />
-        <img src="./shared/header__notification.png" alt="logo" />
-        <img src="./shared/header__profile.png" alt="logo" />
+        <img src="/shared/header__sms.png" alt="logo" />
+        <img src="/shared/header__notification.png" alt="logo" />
+        <img src="/shared/header__profile.png" alt="logo" />
       </div>
     </div>
   );

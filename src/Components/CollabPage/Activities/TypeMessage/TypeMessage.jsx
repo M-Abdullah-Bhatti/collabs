@@ -9,10 +9,10 @@ const TypeMessage = () => {
       </div>
       {/* Right Container */}
       <div className="right__container">
-        <img src="./collab/paperclip.png" alt="logo" />
-        <img src="./collab/mic_black_24dp 1.png" alt="logo" />
+        <img src="/collab/paperclip.png" alt="logo" />
+        <img src="/collab/mic_black_24dp 1.png" alt="logo" />
         <div>
-          <img src="./collab/send.png" alt="logo" />
+          <img src="/collab/send.png" alt="logo" />
         </div>
       </div>
     </div>

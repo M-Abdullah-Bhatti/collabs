@@ -7,7 +7,7 @@ const Draft = ({ draftNumber, message, date }) => {
       <div className="draft__header">
         <div className="logo">
           <div>
-            <img src="./handshake__draft.png" alt="logo" />
+            <img src="/collab/handshake__draft.png" alt="logo" />
           </div>
           <h3>Draft #{draftNumber}</h3>
         </div>
@@ -22,10 +22,10 @@ const Draft = ({ draftNumber, message, date }) => {
         <div className="btns__container">
           <button>
             {/* Draft 1, mp3 <RxDownload style={{ fontSize: "18px" }} />{" "} */}
-            Draft 1, mp3 <img src="./import.png" alt="logo" />{" "}
+            Draft 1, mp3 <img src="/collab/import.png" alt="logo" />{" "}
           </button>
           <button>
-            Draft 2, mp3 <img src="./import.png" alt="logo" />{" "}
+            Draft 2, mp3 <img src="/collab/import.png" alt="logo" />{" "}
           </button>
         </div>
       </div>

@@ -20,7 +20,7 @@ const TrackCollab = () => {
               <div
                 className={`track-status ${index < 3 ? "active" : "inactive"}`}
               >
-                {index < 3 ? <img src="./tick.png" alt="logo" /> : ""}
+                {index < 3 ? <img src="/collab/tick.png" alt="logo" /> : ""}
                 {/* {index < 3 ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
