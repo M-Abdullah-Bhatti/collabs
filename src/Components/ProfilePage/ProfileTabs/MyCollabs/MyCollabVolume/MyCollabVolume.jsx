@@ -4,18 +4,25 @@ import { AiOutlinePause } from "react-icons/ai";
 import { AudioVisualizer } from "react-audio-visualize";
 
 const MyCollabVolume = () => {
-  const visualizerRef = useRef(null);
   const audioRef = useRef(null);
   const [blob, setBlob] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
 
-  const handlePlay = () => setIsPlaying(true);
-  const handlePause = () => setIsPlaying(false);
+  const handlePlay = () => {
+    console.log("Audio Play Event Triggered");
+    setIsPlaying(true);
+  };
+
+  const handlePause = () => {
+    console.log("Audio Pause Event Triggered");
+    setIsPlaying(false);
+  };
 
   const updateTime = () => {
     if (audioRef.current) {
       setCurrentTime(audioRef.current.currentTime);
+      console.log("Current Time:", audioRef.current.currentTime);
     }
   };
 
@@ -33,31 +40,27 @@ const MyCollabVolume = () => {
       audioElem.addEventListener("play", handlePlay);
       audioElem.addEventListener("pause", handlePause);
       audioElem.addEventListener("timeupdate", updateTime);
-    }
 
-    // Cleanup the event listeners on component unmount
-    return () => {
-      if (audioElem) {
+      // Cleanup the event listeners on component unmount
+      return () => {
         audioElem.removeEventListener("play", handlePlay);
         audioElem.removeEventListener("pause", handlePause);
         audioElem.removeEventListener("timeupdate", updateTime);
-      }
-    };
+      };
+    }
   }, []);
 
-  useEffect(() => {
+  const handleVolumeClick = () => {
     const audioElem = audioRef.current;
     if (audioElem) {
-      if (isPlaying) {
-        audioElem.play();
+      if (audioElem.paused || audioElem.ended) {
+        audioElem.play().catch((error) => {
+          console.error("Error playing audio:", error);
+        });
       } else {
         audioElem.pause();
       }
     }
-  }, [isPlaying]);
-
-  const handleVolumeClick = () => {
-    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
 
   return (
@@ -67,11 +70,8 @@ const MyCollabVolume = () => {
           <h1>You Are My Everything</h1>
           <p>Sean Kim, Asad Ali, Mahnoor Ali and 2 others</p>
         </div>
-        {/* Volume Container */}
         <div className="volume__container">
-          {/* Top Container */}
           <div className="top__container">
-            {/* Left Container */}
             <div className="left__container" onClick={handleVolumeClick}>
               {isPlaying ? (
                 <AiOutlinePause />
@@ -79,7 +79,6 @@ const MyCollabVolume = () => {
                 <img src="./profile/collab__play.png" alt="logo" />
               )}
             </div>
-            {/* Right Container */}
             <div className="right__container">
               {blob && (
                 <AudioVisualizer
@@ -89,23 +88,18 @@ const MyCollabVolume = () => {
                   barWidth={2}
                   gap={2}
                   barColor="black"
-                  barPlayedColor="yellow"
+                  barPlayedColor="#FFE500"
                   currentTime={currentTime}
                 />
               )}
             </div>
           </div>
-          {/* Bottom Container */}
           <div className="bottom__container">
-            {/* Left Container */}
             <div className="left__container">
               <span>01:23</span>/ <span>2:35</span>
             </div>
-            {/* Right Container */}
             <div className="right__container">
               <img src="/profile/shared__volume-low.png" alt="logo" />
-
-              {/* Volume bar */}
               <div className="volume-container">
                 <div className="volume-bar">
                   <div className="yellow-part">
@@ -118,7 +112,6 @@ const MyCollabVolume = () => {
           </div>
         </div>
       </div>
-
       <div className="volume__description">
         <p>
           Description Goes here. This is just a simple description or the
@@ -126,11 +119,7 @@ const MyCollabVolume = () => {
           to read it completely; you can stop now.
         </p>
       </div>
-
-      {/* Audio element */}
-      {blob && (
-        <audio ref={audioRef} src={URL.createObjectURL(blob)} preload="auto" />
-      )}
+      <audio ref={audioRef} src="/profile/sample.ogg" preload="auto" />
     </>
   );
 };
