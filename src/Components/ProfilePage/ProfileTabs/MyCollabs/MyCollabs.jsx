@@ -9,7 +9,11 @@ const MyCollabs = () => {
     <div className="my__collabs__container">
       <CollabStats />
       <div className="my__collabs__main">
-        <MyCollabMusicPlayer />
+        <MyCollabMusicPlayer status={1} />
+        <CollabDetails />
+      </div>
+      <div className="my__collabs__main">
+        <MyCollabMusicPlayer status={0} />
         <CollabDetails />
       </div>
     </div>

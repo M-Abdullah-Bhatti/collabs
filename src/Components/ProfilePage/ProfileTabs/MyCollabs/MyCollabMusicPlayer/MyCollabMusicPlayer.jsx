@@ -3,10 +3,10 @@ import './MyCollabMusicPlayer.css'
 import MyCollabHeader from '../MyCollabHeader/MyCollabHeader'
 import MyCollabVolume from '../MyCollabVolume/MyCollabVolume'
 
-const MyCollabMusicPlayer = () => {
+const MyCollabMusicPlayer = ({status}) => {
   return (
     <div className='collab__musicplayer__container'>
-        <MyCollabHeader />
+        <MyCollabHeader status={status} />
         <MyCollabVolume />
     </div>
   )

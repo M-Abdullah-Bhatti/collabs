@@ -1,8 +1,9 @@
 .my__collabs__container {
-  margin-top: 12px;
+  margin-top: 12px 0 24px;
 }
 
 .my__collabs__container .my__collabs__main {
   margin-top: 12px;
   background-color: #fff;
+  border: 1px solid #000;
 }
