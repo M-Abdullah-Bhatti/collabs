@@ -4,7 +4,7 @@
 }
 
 .profile__container__main .profile__main {
-  width: 75%;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -32,6 +32,6 @@
   flex: 0.75;
 }
 
-.profile__container__main .something__else {
+/* .profile__container__main .something__else {
   width: 25%;
-}
+} */

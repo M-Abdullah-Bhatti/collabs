@@ -52,7 +52,7 @@ const Profile = () => {
       </div>
 
       {/* Something Else */}
-      <div className="something__else"></div>
+      {/* <div className="something__else"></div> */}
     </div>
   );
 };

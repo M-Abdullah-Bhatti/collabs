@@ -3,28 +3,29 @@ import "./Header.css";
 
 const navLinks = [
   {
-    linkText: "Find Artists",
-    linkTo: "/find-artists",
-  },
-  {
-    linkText: "Find Job",
-    linkTo: "/find-job",
-  },
-  {
-    linkText: "Post Job",
-    linkTo: "/post-job",
+    linkText: "Home",
+    linkTo: "/",
   },
   {
     linkText: "Find Collabs",
-    linkTo: "/find-collabs",
+    linkTo: "/collab",
   },
   {
+    linkText: "Find Job",
+    linkTo: "/",
+  },
+  {
+    linkText: "Post Job",
+    linkTo: "/",
+  },
+
+  {
     linkText: "Post Collabs",
-    linkTo: "/post-collabs",
+    linkTo: "/",
   },
   {
     linkText: "How it works",
-    linkTo: "/how-it-works",
+    linkTo: "/",
   },
 ];
 
